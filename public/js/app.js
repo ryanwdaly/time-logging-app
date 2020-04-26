@@ -189,8 +189,8 @@ class TimerForm extends React.Component {
     handleSubmit = () => {
         this.props.onFormSubmit({
             id: this.props.id,
-            title: this.props.title,
-            project: this.props.project,
+            title: this.state.title,
+            project: this.state.project,
         });
     };
 
