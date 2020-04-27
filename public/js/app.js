@@ -114,7 +114,7 @@ class TimersDashboard extends React.Component {
                 onFormSubmit={this.handleEditFormSubmit}
                 onTrashClick={this.handleTrashClick}
                 onStartClick={this.handleStartClick}
-                onStopCLick={this.handleStopClick}
+                onStopClick={this.handleStopClick}
             />
             <ToggleableTimerForm
                 onFormSubmit={this.handleCreateFormSubmit}
@@ -166,7 +166,7 @@ class ToggleableTimerForm extends React.Component {
     }
 }
   
-  class EditableTimerList extends React.Component {
+class EditableTimerList extends React.Component {
     render() {
         const timers = this.props.timers.map((timer) => (
             <EditableTimer
