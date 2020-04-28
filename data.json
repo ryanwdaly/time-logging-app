@@ -4,7 +4,7 @@
         "project": "House Chores",
         "elapsed": 5458808,
         "id": "0a4a79cb-b06d-4cb1-883d-549a1e3b66d7",
-        "runningSince": null
+        "runningSince": 1588101155375
     },
     {
         "title": "Clear paper jam",
@@ -18,5 +18,12 @@
         "id": "2c43306e-5b44-4ff8-8753-33c35adbd06f",
         "elapsed": 11750,
         "runningSince": 1456225941911
+    },
+    {
+        "title": "new timer",
+        "project": "testing",
+        "id": "9a4494fa-c92b-41da-9c20-1d74b5c3d42b",
+        "elapsed": 0,
+        "runningSince": 1588101171744
     }
 ]
